@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Essay Gram</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="example_question">Some people think all university student should study whatever they like. Others believe that they should only be allowed to study subjects that will be useful in the future, such as those related to science and technology.
+
+Discuss both these views and give your own opinion.</string>
+    <string name="description_for_img1">This image features a digital document with the word ‘ESSAY’ prominently displayed. The document itself is blue with a white border and has a red heart at the bottom. It’s set against a pink and white background, which is decorated with small blue and red shapes scattered around. To the right of the document, there’s a blue pen, suggesting the act of writing or editing the essay</string>
+
+    <string name="description_for_img2">This image features a flat design of a document with the word ‘ESSAY’ written on it. The document is blue with a white border and has a few lines of text on it, although the text is not legible. The document is set against a light blue background decorated with small white and blue circles. Next to the document, there’s a blue pen, suggesting the act of writing or editing the essay. The image also has a shadow effect, giving it a bit of depth.</string>
+
+</resources>

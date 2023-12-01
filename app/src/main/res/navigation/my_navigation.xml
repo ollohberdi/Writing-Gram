@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.essaygram.Fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_taskTwoFragment"
+            app:destination="@id/taskTwoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_taskOneFragment2"
+            app:destination="@id/taskOneFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_showTaskOneFragment"
+            app:destination="@id/showTaskOneFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_showTaskTwoFragment"
+            app:destination="@id/showTaskTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskOneFragment"
+        android:name="com.example.essaygram.Fragments.TaskOneFragment"
+        android:label="fragment_task_one"
+        tools:layout="@layout/fragment_task_one" />
+    <fragment
+        android:id="@+id/taskTwoFragment"
+        android:name="com.example.essaygram.Fragments.TaskTwoFragment"
+        android:label="fragment_task_two"
+        tools:layout="@layout/fragment_task_two" />
+    <fragment
+        android:id="@+id/showTaskOneFragment"
+        android:name="com.example.essaygram.Fragments.ShowTaskOneFragment"
+        android:label="fragment_show_task_one"
+        tools:layout="@layout/fragment_show_task_one" />
+    <fragment
+        android:id="@+id/showTaskTwoFragment"
+        android:name="com.example.essaygram.Fragments.ShowTaskTwoFragment"
+        android:label="fragment_show_task_two"
+        tools:layout="@layout/fragment_show_task_two" />
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "49234533788",
+    "project_id": "writinggram-e705a",
+    "storage_bucket": "writinggram-e705a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49234533788:android:a9e134dce64f8c2ba6fc59",
+        "android_client_info": {
+          "package_name": "com.example.essaygram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDCHWwba5kiqf9SwEMmG2tzRcMEsxsIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
